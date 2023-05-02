@@ -1,20 +1,20 @@
 // divListaProduto.insertAdjacentHTML('afterbegin', '');
 
 class Produto {
-    constructor(nome, datac, descricao, preco){
+    constructor(nome, dataCadastro, descricao, valor){
             this.nome = nome;
-            this.datac = datac;
+            this.dataCadastro = this.dataCadastro;
             this.descricao = descricao;
-            this.preco = preco
+            this.valor = valor
     }
-mostrap(){
-    this.nome + this.datac + this.descricao + this.preco
+mostrarProduto(){
+    this.nome + this.dataCadastro + this.descricao + this.valor
 }
 }
-class Produtod extends Produto{
+class Produto extends Produto{
     constructor (nome , datac,descricao , preco, imagemd){
         super(nome , datac , descricao, preco )
-this.imagemd = imagemd
+this.imagem = imagem
         
     }
 
